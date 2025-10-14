@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TriX — Сообщество</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><a href="index.html">TriX</a></div>
+    <nav class="mainnav">
+      <a href="index.html">Главная</a>
+      <a href="levels.html">Уровни</a>
+      <a href="lessons.html">Уроки</a>
+      <a href="games.html">Игры</a>
+      <a href="community.html" class="active">Сообщество</a>
+    </nav>
+    <a href="profile.html" class="profile-link">
+      <svg class="avatar" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="8" r="3.2"></circle>
+        <path d="M4.5 19a7.5 7.5 0 0115 0"></path>
+      </svg>
+    </a>
+  </header>
+
+  <main class="container">
+    <section class="content-hero">
+      <h1>Сообщество</h1>
+      <p class="lead">Публикуй свои успехи, читай советы и получай лайки-монеты.</p>
+    </section>
+
+    <section class="feed">
+      <div class="post">
+        <div class="post-header">
+          <div class="post-avatar">NA</div>
+          <div>
+            <div class="post-author">Кто-то</div>
+            <div class="post-time">2 ч назад</div>
+          </div>
+        </div>
+        <div class="post-body">Сегодня сдал челлендж — 7 дней без фастфуда и +50 кубков. Очень доволен!</div>
+        <div class="post-actions">
+          <button class="btn ghost" onclick="likePost(this)">❤ 12</button>
+          <button class="btn ghost">Комментировать</button>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post-header">
+          <div class="post-avatar">AL</div>
+          <div>
+            <div class="post-author">Алма</div>
+            <div class="post-time">1 день назад</div>
+          </div>
+        </div>
+        <div class="post-body">Поделитесь, как вы экономите на школьных обедах?</div>
+        <div class="post-actions">
+          <button class="btn ghost" onclick="likePost(this)">❤ 7</button>
+          <button class="btn ghost">Комментировать</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© TriX 2025</div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
