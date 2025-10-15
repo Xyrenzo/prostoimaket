@@ -6,7 +6,7 @@
   --primary:#3B82F6;
   --accent:#10B981;
   --warning:#FACC15;
-  --shadow: 0 8px 24px rgba(2,6,23,0.08);
+  --shadow: 0 8px 24px rgba(2,6,23,0.15);
   --radius:14px;
   --glass: rgba(255,255,255,0.6);
   --container:1100px;
@@ -47,7 +47,7 @@ a{color:inherit;text-decoration:none}
 .progress{height:10px;background:rgba(2,6,23,0.06);border-radius:8px;overflow:hidden}
 .progress-bar{height:100%;background:linear-gradient(90deg,var(--primary),#60a5fa)}
 .card-actions{display:flex;gap:8px;margin-top:12px}
-.cards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:24px}
+.cards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:24px, box-shadow:}
 .cards-grid .card{padding:18px;display:flex;flex-direction:column;gap:12px}
 .features{margin-top:28px}
 .features-grid{display:flex;gap:18px;flex-wrap:wrap}
