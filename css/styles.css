@@ -15,7 +15,7 @@
   --font-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 *{box-sizing:border-box}
-html,body{height:100%}
+html,body{height:100%, background-color: #00FFFF;}
 body{margin:0;font-family:var(--font-sans);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 a{color:inherit;text-decoration:none}
 .container{max-width:var(--container);margin:28px auto;padding:0 20px}
